@@ -40,6 +40,8 @@ body {
 .movie-cover {
   transition: 0.3s;
   opacity: 0.7;
+  height: 290px;
+  object-fit: cover;
 }
 
 .movie-cover:hover {
@@ -56,9 +58,6 @@ body {
 }
 .movieList::-webkit-scrollbar {
   display: none;
-}
-.movie-cover {
-  object-fit: cover;
 }
 
 .profile-page {
