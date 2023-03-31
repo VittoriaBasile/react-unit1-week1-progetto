@@ -131,3 +131,9 @@ input[type="checkbox"] {
 .movieList {
   overflow: auto;
 }
+.movieList::-webkit-scrollbar {
+  display: none;
+}
+.movie-cover {
+  object-fit: cover;
+}

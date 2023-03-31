@@ -13,7 +13,7 @@ class MyNavbar extends Component {
               <img src={logo} alt="logo" id="logo" />
             </a>
             <button
-              classNameName="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
