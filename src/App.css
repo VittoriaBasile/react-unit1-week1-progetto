@@ -27,17 +27,8 @@ body {
   margin-right: 10px;
 }
 
-.dropdown-menu {
-  margin-left: -100px;
-  background-color: var(--home-bg-color);
-}
-
 .icon {
   margin: 4px 10px;
-}
-
-.dropdown-menu a {
-  font-size: 12px;
 }
 
 .genre-details {
@@ -60,32 +51,17 @@ body {
   z-index: 1;
 }
 
-:is(.carousel-control-prev, .carousel-control-next) {
-  width: 40px;
+.movieList {
+  overflow: auto;
 }
-
-.account-page {
-  min-height: 100vh;
-  background-color: var(--account-bg-color);
+.movieList::-webkit-scrollbar {
+  display: none;
 }
-
-.account-page h6 {
-  font-size: 1.2rem;
-  opacity: 0.8;
-}
-
-.account-page .btn-membership {
-  background-image: linear-gradient(to bottom, rgb(236, 236, 236), rgb(211, 211, 211));
-  background-repeat: no-repeat;
-  border: none;
-  font-weight: 500;
-  font-size: 0.9rem;
-  padding-inline: 2rem;
-  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 30%);
+.movie-cover {
+  object-fit: cover;
 }
 
 .profile-page {
-  /* padding: 5% 20%; */
   color: #fff;
 }
 
@@ -109,31 +85,4 @@ body {
   background: black;
   padding: 10px;
   border-radius: 50%;
-}
-
-input[type="text"] {
-  padding: 10px;
-  background: var(--secondary-color);
-  width: 100%;
-  color: white;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-input[type="text"]:focus {
-  outline: none;
-}
-
-input[type="checkbox"] {
-  width: 36px;
-  height: 36px;
-}
-.movieList {
-  overflow: auto;
-}
-.movieList::-webkit-scrollbar {
-  display: none;
-}
-.movie-cover {
-  object-fit: cover;
 }
